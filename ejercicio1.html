@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ejemplo de selectores avanzados</title>
+<style>
+/*realiza los cambios necesarios para que la columna de Cambio, tenga un color azul cielo
+y el encabezado de la tabla también con un color azul cielo.
+Agrega además lo necesario para que cuando el mouse pase por la fila del euro se pinte 
+de amarillo todos los valores incluidos en la columna compra, venta, maximo y minimo
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+table, tr, th, td {
+  border: 1px solid #333;
+  line-height: 2em;
+}
+
+th {
+  background-color: #F5F5F5;
+  padding: 0 .5em;
+}
+
+td {
+  padding: 0 .3em;
+}
+
+th.euro {
+  
+  padding: 0 .3em 0 1.2em;
+}
+
+th.dolar {
+  
+  padding: 0 .3em 0 1.2em;
+}
+
+th.libra {
+  
+  padding: 0 .3em 0 1.2em;
+}
+
+th.yen {
+  
+  padding: 0 .3em 0 1.2em;
+}
+
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <th>Cambio</th>
+    <th>Compra</th>
+    <th>Venta</th>
+    <th>Máximo</th>
+    <th>Mínimo</th>
+  </tr>
+  <tr>
+    <th class="euro">Euro/Dolar</th>
+    <td>1.25</td>
+    <td>1.25</td>
+    <td>1.25</td>
+    <td>1.24</td>
+  </tr>
+  <tr>
+    <th class="dolar">Dolar/Yen</th>
+    <td>119.01</td>
+    <td>119.05</td>
+    <td>119.82</td>
+    <td>119.82</td>
+  </tr>
+  <tr>
+    <th class="libra">Libra/Dolar</th>
+    <td>1.86</td>
+    <td>1.86</td>
+    <td>1.86</td>
+    <td>1.85</td>
+  </tr>
+  <tr>
+    <th class="yen">Yen/Euro</th>
+    <td>0.67</td>
+    <td>0.67</td>
+    <td>0.66</td>
+    <td>0.67</td>
+  </tr>
+</table>
+</body>
+</html>
